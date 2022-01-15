@@ -1,6 +1,6 @@
-import React from "react";
 import { About } from "./components/about";
 import { MemoizedNavbarChildren, Navbar } from "./components/navbar";
+import { Project } from "./components/projects";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       </Navbar>
 
       <About />
+      <Project />
     </div>
   );
 }

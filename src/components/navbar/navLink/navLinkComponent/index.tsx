@@ -6,7 +6,7 @@ type NavLinkProps = {
 export const NavbarLinkComponent = ({ ulStyle, liStyle }: NavLinkProps) => {
   const navLinkList = ["Home", "About", "Projects", "Contact"];
   return (
-    <ul className={`${ulStyle}`}>
+    <ul className={ulStyle}>
       {navLinkList.map((item) => (
         <li
           key={item}
