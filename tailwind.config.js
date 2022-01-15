@@ -26,6 +26,15 @@ module.exports = {
         patrickHand: ["Patrick Hand", "sans-serif"],
         vujahday: ["Vujahday Script", "sans-serif"],
       },
+      width: {
+        88: "22rem",
+      },
+      height: {
+        "40vh": "40vh",
+        "60vh": "60vh",
+        "80vh": "80vh",
+        "100vh": "100vh",
+      },
     },
   },
   plugins: [],

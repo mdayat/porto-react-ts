@@ -1,4 +1,5 @@
 import React from "react";
+import { About } from "./components/about";
 import { MemoizedNavbarChildren, Navbar } from "./components/navbar";
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
       <Navbar>
         <MemoizedNavbarChildren />
       </Navbar>
+
+      <About />
     </div>
   );
 }
