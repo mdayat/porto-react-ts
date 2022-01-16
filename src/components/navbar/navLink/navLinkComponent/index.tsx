@@ -4,15 +4,32 @@ type NavLinkProps = {
 };
 
 export const NavbarLinkComponent = ({ ulStyle, liStyle }: NavLinkProps) => {
-  const navLinkList = ["Home", "About", "Projects", "Contact"];
+  const navLinkList = [
+    {
+      id: "#home",
+      name: "Home",
+    },
+    {
+      id: "#about",
+      name: "About",
+    },
+    {
+      id: "#projects",
+      name: "Projects",
+    },
+    {
+      id: "#contact",
+      name: "Contact",
+    },
+  ];
   return (
     <ul className={ulStyle}>
       {navLinkList.map((item) => (
         <li
-          key={item}
+          key={item.id}
           className={`${liStyle} hover:text-gray-400 duration-300 ease-in-out hover:underline`}
         >
-          <a href="#">{item}</a>
+          <a href={item.id}>{item.name}</a>
         </li>
       ))}
     </ul>

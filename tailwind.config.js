@@ -33,7 +33,6 @@ module.exports = {
         "40vh": "40vh",
         "60vh": "60vh",
         "80vh": "80vh",
-        "100vh": "100vh",
       },
     },
   },

@@ -14,7 +14,10 @@ export const NavbarToggle = ({
   };
   return (
     <div className="lg:hidden">
-      <button onClick={btnCollapse} className="sm:text-xl md:text-2xl">
+      <button
+        onClick={btnCollapse}
+        className="grid place-self-center sm:text-xl md:text-2xl"
+      >
         {toggleBtnProps ? <MdExpandLess /> : <MdExpandMore />}
       </button>
     </div>

@@ -11,7 +11,7 @@ type NavbarProps = {
 export const Navbar = ({ children }: NavbarProps) => {
   const [toggleBtn, setToggleBtn] = useState(false);
   return (
-    <nav className="bg-blue-700 text-white">
+    <nav className="bg-blue-700 text-white sticky top-0 left-0 right-0">
       <div className="mx-auto h-16 flex justify-between items-center sm:w-11/12 md:w-11/12 xl:w-10/12">
         {children}
         <NavbarToggle
