@@ -1,4 +1,3 @@
-import { MdCopyright } from "react-icons/md";
 import { Address } from "./address";
 import { Contact } from "./contact";
 
